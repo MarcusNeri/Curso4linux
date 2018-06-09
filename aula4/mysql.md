@@ -187,3 +187,5 @@ SELECT u.nome as autor, p.titulo FROM posts p INNER JOIN usuarios u ON p.usuario
     ROLLBACK; Desfaz trasanção
     COMMIT; Conclui a transação
 
+   
+
